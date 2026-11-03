@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>HostelCare Java Maintenance Service</display-name>
+
+    <servlet>
+        <servlet-name>StatusServlet</servlet-name>
+        <servlet-class>com.hostel.servlet.StatusServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StatusServlet</servlet-name>
+        <url-pattern>/api/maintenance/status</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuditServlet</servlet-name>
+        <servlet-class>com.hostel.servlet.AuditServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuditServlet</servlet-name>
+        <url-pattern>/api/maintenance/audit</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
