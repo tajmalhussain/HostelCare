@@ -1,0 +1,18 @@
+{
+  "name": "hostelcare-portal",
+  "version": "1.0.0",
+  "description": "HostelCare - Hostel Maintenance Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "hostelcare",
+    "maintenance-portal",
+    "web-technologies"
+  ],
+  "author": "SHARU KHAN F K (25CSL18)",
+  "license": "ISC"
+}
+
